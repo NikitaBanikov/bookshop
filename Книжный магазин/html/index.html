@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-logo">Bookshop</div>
+            <nav>
+                <ul class="header-nav">
+                    <li class="header-nav__item active-link">books</li>
+                    <li class="header-nav__item">audiobooks</li>
+                    <li class="header-nav__item">Stationery & gifts</li>
+                    <li class="header-nav__item">blog</li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <img src="../images/svg/user.svg" alt="пользователь" class="header-icons__item">
+                <img src="../images/svg/search.svg" alt="поиск" class="header-icons__item">
+                <img src="../images/svg/shop bag.svg" alt="корзина" class="header-icons__item">
+                <img src="../images/svg/beigik.svg" alt="бейджик с количеством книг в корзине" class="beigik">
+                <span class="beigik-tekst">0</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Section 1-->
+        <section>
+            <div class="container">
+                <div class="slider-container">
+                    <div class="slider-images">
+                        <img src="../images/png/black-friday.png" alt="черная пятница" class="slider-images__item">
+                        <img src="../images/png/топ 10.png" alt="топ 10 книг для предпринимателей" class="slider-images__item">
+                        <img src="../images/png/приятные книги.png" alt="приятные книги" class="slider-images__item">
+                    </div>
+                    <a href=""><img src="../images/png/заменить книгу.png" alt="заменить книгу" class="sideimg_purple"></a>
+                    <div class="slider-dots">
+                        <div class="slider-dots__item" onclick="currentSlide(1)"></div>
+                        <div class="slider-dots__item" onclick="currentSlide(2)"></div>
+                        <div class="slider-dots__item" onclick="currentSlide(3)"></div>
+                    </div>
+                </div>
+            </div>
+            <a href=""><img src="../images/png/топ 100.png" alt="топ 100 книг 2022" class="sideimg_pink"></a>
+        </section>
+        <div class="categories">
+            <div class="categories-wrapper">
+                <div class="category">
+                    <img src="../images/svg/кружок.svg" class="category__img">
+                    <span class="category__text chosen">Architecture</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Art & Fashion</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Biography</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Business</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Crafts & Hobbies</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Drama</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Fiction</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Food & Drink</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Health & Wellbeing</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">History & Politics</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Humor</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Poetry</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Psychology</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Science</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Technology</span>
+                </div>
+                <div class="category">
+                    <img src="" class="category__img">
+                    <span class="category__text">Travel & Maps</span>
+                </div>
+            </div>
+        </div>
+        <!--Section 2-->
+        <section class="card-section">
+            <div class="cards-wrapper"></div>
+            <div class="load-more-button-wrapper">
+                <button class="load-more-button">LOAD MORE</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
